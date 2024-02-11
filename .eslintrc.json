@@ -17,7 +17,7 @@
         "plugin:import/typescript"
       ],
       "rules": {
-        "@angular-eslint/component-selector": ["error", { "type": "element", "prefix": ["app"], "style": "kebab-case" }],
+        "@angular-eslint/component-selector": ["error", { "type": "element", "prefix": ["app", "ab"], "style": "kebab-case" }],
         "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
         "no-unused-vars": "off",
         "no-trailing-spaces": "error",
@@ -60,6 +60,16 @@
                 },
                 {
                   "pattern": "@ngx-translate/**",
+                  "group": "external",
+                  "position": "after"
+                },
+                {
+                  "pattern": "@app/**",
+                  "group": "external",
+                  "position": "after"
+                },
+                {
+                  "pattern": "@app**",
                   "group": "external",
                   "position": "after"
                 }
