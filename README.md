@@ -1,6 +1,7 @@
 <p align="center">
   <img src="src/assets/images/logo.png" alt="AirBnb"/>
 </p>
+<p align="center"><a href="https://www.flaticon.com/br/icones-gratis/airbnb">Icon by Flat Icons</a></p>
 <h1 align="center">Angular Airbnb Clone</h1>
 
 > Maybe I won't finish this project. But, it is a study project, where I will test the changes brought by Angular 17. I could use nx, creating a more solid structure, but I chose not to use it.
